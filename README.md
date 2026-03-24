@@ -1,0 +1,6 @@
+it init
+git add .
+git commit -m "DWYREX launch"
+git branch -M main
+git remote add origin https://github.com/dwyrex/dwyrex-website.git
+git push -u origin main
