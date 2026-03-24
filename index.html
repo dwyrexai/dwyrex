@@ -5,17 +5,68 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>DWYREX — The King of Compute</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
   <style>
     body { font-family: system-ui, sans-serif; }
     .hero { background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%); }
   </style>
 </head>
-<body class="bg-black text-white hero min-h-screen flex items-center justify-center">
-  <div class="text-center px-6">
-    <img src="/logo.png" alt="DWYREX Logo" class="h-32 mx-auto mb-8">
-    <h1 class="text-6xl font-bold tracking-tighter mb-4">DWYREX</h1>
-    <p class="text-2xl text-yellow-400 mb-2">THE KING OF COMPUTE</p>
-    <p class="text-xl text-gray-400">Sovereign AI Agent Database</p>
-  </div>
+<body class="bg-black text-white">
+
+  <!-- NAV -->
+  <nav class="border-b border-white/10 bg-black/80 backdrop-blur-md fixed w-full z-50">
+    <div class="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <img src="/logo.png" alt="DWYREX" class="h-10">
+        <span class="text-3xl font-bold tracking-tighter">DWYREX</span>
+      </div>
+      <div class="flex gap-8 text-sm font-medium">
+        <a href="#product" class="hover:text-yellow-400">Ürün</a>
+        <a href="#features" class="hover:text-yellow-400">Özellikler</a>
+        <a href="#demo" class="hover:text-yellow-400">Live Demo</a>
+        <a href="#roadmap" class="hover:text-yellow-400">Roadmap</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero min-h-screen flex items-center pt-20">
+    <div class="max-w-5xl mx-auto px-6 text-center">
+      <img src="/logo.png" alt="DWYREX" class="h-32 mx-auto mb-8">
+      <h1 class="text-6xl md:text-7xl font-bold tracking-tighter mb-4">DWYREX</h1>
+      <p class="text-3xl text-yellow-400 mb-2">THE KING OF COMPUTE</p>
+      <p class="text-2xl text-gray-400 max-w-2xl mx-auto">
+        Sovereign AI Agent Database
+      </p>
+      <p class="mt-8 text-lg text-gray-500">Ülke verisini koruyan • Gerçek zamanlı agent hafızası • Postgres tabanlı</p>
+      
+      <div class="mt-12 flex justify-center gap-6">
+        <a href="#demo" class="px-10 py-4 bg-yellow-400 text-black font-semibold text-xl rounded-2xl hover:scale-105 transition">
+          Live Demo →
+        </a>
+        <a href="https://github.com/YOURUSERNAME/dwyrex-website" target="_blank" 
+           class="px-10 py-4 border border-white/40 font-semibold text-xl rounded-2xl hover:bg-white/10 transition">
+          GitHub
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- LIVE DEMO -->
+  <section id="demo" class="py-24 bg-zinc-950">
+    <div class="max-w-5xl mx-auto px-6 text-center">
+      <h2 class="text-4xl font-bold mb-4">Live Demo</h2>
+      <p class="text-gray-400 mb-12">Gerçek zamanlı agent hafızası ekleyip arayın</p>
+      <div class="bg-black border border-white/10 rounded-3xl p-8 max-w-4xl mx-auto">
+        <!-- Buraya ileride gerçek demo iframe gelecek -->
+        <p class="text-gray-500 py-20">Demo yakında aktif olacak...</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="py-12 border-t border-white/10 text-center text-gray-500 text-sm">
+    © 2026 DWYREX • The King of Compute
+  </footer>
+
 </body>
 </html>
